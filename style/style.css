@@ -1,0 +1,37 @@
+.flex-wrapper {
+  display: flex;
+  width: 100%;
+  /* flex-wrap: nowrap; */
+}
+
+.flex {
+  display: flex;
+}
+
+.banner {
+    background-color: aquamarine;
+    height: 200px;
+    padding-left: 1%
+}
+
+.page-title {
+  text-align: center;
+  background-color: lightgray;
+  font-weight: 900;
+  font-size: xx-large;
+  margin-bottom: 0;
+
+}
+
+.page {
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.blog-title {
+  text-decoration: underline;
+  background-color: lightcoral;
+  width: fit-content;
+  font-weight: bolder;
+}

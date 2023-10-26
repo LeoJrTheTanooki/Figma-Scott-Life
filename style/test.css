@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-gap: 10px;
+    height: 100vh;
+  }
+  
+  .left {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .right {
+    display: grid;
+    /* grid-gap: 5px; */
+    grid-auto-rows: 500px;
+    overflow: auto;
+  }
+  
+  .one   { background: violet; }
+  .two   { background: indigo; }
+  .three { background: blue;   }
+  .four  { background: green;  }
+  .five  { background: yellow; }
+  .six   { background: orange; }
+  .seven { background: red     }
+  /* body   { margin: 0 0; padding: 0 0; } */
